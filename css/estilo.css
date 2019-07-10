@@ -1,0 +1,576 @@
+	@charset "utf-8";
+/* CSS Document */
+body{
+	width: 100%;
+	margin: 0 auto;
+	font-size: 16px;
+	font-family: 'Sofia', sans-serif;
+}
+li{
+	list-style: none; /* Para tirar todas as bolinhas que ficam nas listas */
+}
+.site{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+/* Inicio do bloco  TopoRedeSocialTelEmail */ 
+.topoLinhaUm{
+	background: #dc71b6;
+}
+/* quebrar os itens em lista */
+.topoLinhaUm article{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 15px;
+} 
+.topoLinhaUm article ul{
+	display: flex;
+}
+/* quebrar os itens em lista */
+
+.redeSocialTopo li{
+	margin: 0;
+	width: 50px;
+}
+.redeSocialTopo li a img{
+	margin: 15%;
+
+}
+/* Fim do bloco  TopoRedeSocialTelEmail */
+
+
+/* Inicio do bloco  MenuLogo */ 
+	/* Inicio do Bloco Menu*/
+	.topoLinhaDois{
+		background: #efcae2; 
+	}
+	.topoLinhaDois article ul{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0%;
+	}
+	.topoLinhaDois article h1{
+		background: url(../img/logo.svg) no-repeat;
+		width: 150px;
+		height: 100px;
+		display: block;
+		text-indent: -9999px;
+	}
+	.menu ul{
+		display: flex;
+		justify-content: space-around;
+	}
+	.menu ul li{
+		padding: 3em;
+		font-size: 20px;
+	}
+	.menu ul li:hover{
+		background: #88d5d0; 
+		/*background: #06545E;*/
+	}
+	.menu ul li a{
+		color: #FFFFFF;
+		padding:2.8em 1em;
+		text-decoration: none;
+		text-align: center;
+	}
+	.menu ul li a:hover{
+		color: #efcae2;
+	}
+	/* Menu Fixo*/
+	.menuFixo{
+		z-index: 9999;
+		position: fixed;
+		top: 0;
+		
+		width: 100%;
+		background:rgba(40, 215, 203, 0.9);
+		
+		animation: fadeIn 1s ease-in-out;
+	}
+	/*Fim do Bloco Menu */
+/* Fim do bloco MenuLogo  */ 
+
+/* Inicio do bloco Banner  */ 
+	.banner{
+		width: 100%;
+		margin: 3% auto;
+	}
+
+/* Fim do bloco Banner  */ 
+
+/* Inicio do bloco  PerguntasFrequentes */ 
+	.destaquePerguntasFrequentes h2{
+		text-align: center;
+		font-size: 35px;
+		padding-bottom: 3%;
+	}
+	.destaquePerguntasFrequentes article{
+		display: flex;
+		justify-content: space-between;
+	}
+/* Fim do bloco PerguntasFrequentes  */ 
+
+/* Inicio do bloco osQueridinhosDoMes  */ 
+	/*max-height: 250px;*/
+.galeriaTitulo{
+	text-align: center;
+	margin: 3% auto;
+	font-size: 35px;
+	padding: 3%;										
+}
+.galeria{
+	justify-content: space-around;
+	display: flex;
+}
+/* Fim do bloco galeriaDestaqueDoMes  */ 
+
+/* Inicio do bloco  DepoimentoDeClientes */ 
+.depoimentoDosClientes{
+    background: #28d7cb;
+	margin: 2% 0;
+ }
+.depoimentoDosClientes h2{
+	text-align: center;
+	margin: 3%, 0;
+	font-size: 35px;
+}
+.depoimentoDosClientes p{
+	text-align: justify;
+	margin: 0;
+	padding: 3%;
+	font-size: 20px;
+}
+.depoimentoDosClientes h4{
+	text-align: center;
+	font-size: 22px;
+	margin: 0;
+}
+.depoimentoDosClientes img{
+	padding: 4%;
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	max-width: 500px; 
+	max-height: 250px;
+}
+
+/* Fim do bloco  DepoimentoDeClientes */ 
+
+
+
+/* Inicio do bloco Rodape */ 
+.rodape{
+	background: #111b1a;
+	display: flex;
+	justify-content: space-between;
+	color: #efcae2;
+	width: 100%;
+}
+.rodape article h2,
+.rodape article h3,
+.rodape article p
+{
+	padding: 3% 4% 0 4%;
+	text-align: left;
+	margin: 0;
+}
+.rodape {
+	display: flex;
+}
+.rodape div img{
+	width: 100%;
+	padding: 7%;
+}
+
+.redeSocialRodape {
+    width: 35px;
+    position: relative;
+    top: 180px;
+    left: -1810px;
+}
+
+/* Textos do Rodapé */
+.textosRodape1{
+	width: 30%
+}
+.textosRodape1 div ul{
+	display: flex;
+}
+.textosRodape2{
+	width: 15%
+}
+.texto{
+	font-size: 20px;
+	text-align: center;
+	background: rgb(47, 47, 47);
+	height:2px; 
+	border:none; 
+	color:#000; 
+	margin-top: 0px; 
+	margin-bottom: 0px;
+}
+
+
+	/*.textosRodape2{
+		display: flex;
+		width: 35%;
+	}*/
+
+	/* Rede Social Rodapé */
+	
+
+	/* Formulario */
+	.form{
+		width: 30%;
+	}
+	.form article{
+		padding: 10%;
+	}
+
+	.form input[type=text],
+	.form input[type=email],
+	.form input[type=submit],
+	.form textarea
+	{
+		width: 100%;
+		padding: .5em;
+		margin-bottom: .5em;
+		color: #dc71b6;
+		background:rgba(255,255,255,0.9);
+		font-size: 1.1em;
+		border: thin solid #333;
+	}
+	.form textarea{
+		height: 150px;
+		resize: none;
+	}
+
+	.form input[type=submit]{
+		width: 30%;
+		float: right;
+		margin-right: -20px;
+		cursor: pointer;
+	}
+/* Fim do bloco Rodape */
+
+
+
+
+
+	/* Formulario Depoimento*/
+	.depoimentos h2{
+		text-align: center;
+		font-size: 35px;
+		padding: 4%;
+	}
+	.depoimentos h1{
+		text-align: left;
+		font-size: 20px;	
+	}
+	.depoimentos p{
+		text-align: justify;
+		font-size: 15px;	
+	}
+	.bloco1depo{
+		margin-left: 50%;
+	}
+	
+	.bloco2depo{
+		margin-right: 50%;
+	}
+
+	/*FormDepoimento */
+
+	.formDepoimento{
+		width: 30%;
+		padding-top: 3%
+	}
+	.formDepoimento article{
+		margin-bottom: 15%;
+		padding: 0%;
+	}
+
+	.formDepoimento input[type=text],
+	.formDepoimento input[type=email],
+	.formDepoimento input[type=submit],
+	.formDepoimento textarea
+	{
+		width: 100%;
+		padding: .5em;
+		margin-bottom: .5em;
+		color: #dc71b6;
+		background:rgba(255,255,255,0.9);
+		font-size: 1.1em;
+		border: thin solid #333;
+	}
+	.formDepoimento textarea{
+		height: 150px;
+		resize: none;
+	}
+
+	.formDepoimento input[type=submit]{
+		width: 30%;
+		float: right;
+		margin-right: -20px;
+		cursor: pointer;
+	}
+
+.msgEnvio h2{
+	text-align: center;
+	padding: 25%;
+	font-size: 10px;
+	font-size: 45px;
+
+}
+
+	/* Pag Bio */
+
+	.bio h2{
+		text-align: center;
+		font-size: 35px;
+		padding: 3%;
+	}
+	.bio p{
+		text-align: justify;
+		font-size: 20px;
+		margin: 0, 15%;
+		margin: 0% 15% 5% 15%;
+	}
+	.bio h4{
+		text-align: right;
+	}
+	.bio img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom:5%; 
+	}
+
+.pgdepo h1{
+		text-align: center;	
+		font-size: 35px;
+
+}
+
+/* estilo mobile */
+@media(max-width:768px){
+
+	body{
+		font-size: 12px;
+	}
+	.site{
+		max-width: 600px;
+	}
+	.topoLinhaUm{		
+		padding: 1em;
+	}
+	.topoLinhaUm article{
+		
+		margin-top: 15px;
+	}
+	.topoLinhaUm h2{
+		font-size: 11px !important;
+	}
+	.topoLinhaDois{		
+	}
+	.topoLinhaDois article{
+		flex-direction: column;
+	}	
+	.topoLinhaDois article h1{
+		width: 100px;
+		height: 80px;
+		margin-top: 15px;
+	}
+	
+	.menuFixo article h1{
+		display: none;
+	}
+	
+	.menu ul li:hover > ul{
+		margin-top: 33px;
+	}
+
+	.menu ul li {
+		padding: .5em;
+		font-size: 20px;
+	
+	}
+	/* Rodapé*/
+	.rodape div img {
+		width: 70%;
+	}
+	
+	.destaque div{
+		justify-content: space-between;
+		padding: 150px;
+	}
+	
+	.video div article{
+		width: 45%;
+	}
+	
+	.servicos{
+		justify-content: space-around;
+	}
+}
+@media(max-width:480px){
+	
+	body{
+		font-size: 10px;
+		justify-content: center;
+	}
+	
+	.site{
+		max-width: 400px;
+	}
+	.menu{
+		display: none;
+	}
+	
+	.menu-mobile{
+		display: block;
+	}
+	
+	.menuFixo article h1{
+		display: none;
+	}
+	
+	.menu ul li:hover > ul{
+		margin-top: 33px;
+	}
+
+	.menu ul li {
+		padding: .5em;
+		font-size: 20px;
+	
+	}
+	.topoLinhaUm article ul {
+    display: flex;
+		width: 35%;
+	}
+	
+	
+	.destaque div{
+		flex-direction: column;
+	}
+	.destaque div article{
+		width: 95%;
+		margin: 0 auto;
+		padding-bottom: 2%;
+	}
+	
+	.rodape{
+		flex-direction: column;	
+		
+	}
+	.rodape div{
+		text-align: center;
+	}
+	.rodape img{
+		padding: 30%; 
+	}
+	
+	.textosRodape1 {
+    margin: auto!important;
+}
+	.textosRodape2 {
+    margin: auto!important;
+}
+	.rodape div img {
+		width: 40%;
+	}
+	.form{
+		width: 95%;
+	}
+
+
+/*LINHA DE RACIOCINIO DO LAYOUT
+
+TopoRedeSocialTelEmail
+MenuLogo
+Banner
+PerguntasFrequentes
+MaisVendidosDosMes
+DepoimentoDeClientes
+Rodapé */
+
+
+/* Portfólio */
+
+.hs_container{
+	position:relative;
+	width:902px;
+	height:471px;
+	overflow:hidden;
+	clear:both;
+	border:2px solid #fff;
+	cursor:pointer;
+	-moz-box-shadow:1px 1px 3px #222;
+	-webkit-box-shadow:1px 1px 3px #222;
+	box-shadow:1px 1px 3px #222;
+}
+
+.hs_container .hs_area{
+	position:absolute;
+	overflow:hidden;
+}
+
+.hs_area img{
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+
+.hs_area img.hs_visible{
+	display:block;
+	z-index:9999;
+}
+
+.hs_area1{
+	border-right:2px solid #fff;
+}
+.hs_area4, .hs_area5{
+	border-top:2px solid #fff;
+}
+.hs_area4{
+	border-right:2px solid #fff;
+}
+.hs_area3{
+	border-top:2px solid #fff;
+}
+.hs_area1{
+	width:449px;
+	height:334px;
+	top:0px;
+	left:0px;
+}
+.hs_area2{
+	width:451px;
+	height:165px;
+	top:0px;
+	left:451px;
+}
+.hs_area3{
+	width:451px;
+	height:167px;
+	top:165px;
+	left:451px;
+}
+.hs_area4{
+	width:192px;
+	height:135px;
+	top:334px;
+	left:0px;
+}
+.hs_area5{
+	width:708px;
+	height:135px;
+	top:334px;
+	left:194px;
+}
+}

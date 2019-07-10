@@ -1,0 +1,10 @@
+fonts google
+
+
+link da pag de fonts
+https://www.w3schools.com/howto/howto_google_fonts.asp
+
+
+font utilizada no site no momento
+font-family: 'Sofia';font-size: 15px;
+
